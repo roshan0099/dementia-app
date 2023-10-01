@@ -1,0 +1,223 @@
+#img-main {
+    border-radius: 25px;
+}
+
+#tab-img {
+    background-position: center;
+    object-fit: cover;
+}
+
+.violetcolor {
+    color: blueviolet;
+}
+
+.violetcolorbr {
+    background-color: #6c1c80;
+}
+
+.services {
+    border-radius: 17px;
+}
+
+
+/* font size */
+.sizered {
+    font-size: 21px;
+}
+
+.montesstitle {
+    font-size: 21px;
+}
+
+@media screen and (max-width: 390px) {
+    .montesstitle {
+        font-size: 29px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .para {
+        word-break: break-all;
+    }
+
+}
+
+
+
+.hover-eff:hover {
+    color: #3e1249;
+}
+
+.size-mini {
+    font-size: 17px;
+}
+
+.sizecap {
+    font-size: 32px;
+}
+
+.titlesize {
+    font-size: 17px;
+}
+
+.small-size {
+    font-size: 19px;
+}
+
+.gradientcolor {
+    background: rgb(129, 123, 220);
+    background: linear-gradient(90deg, rgba(129, 123, 220, 1) 0%, rgba(171, 14, 152, 1) 62%);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-italic {
+    animation: changeBackgroundColor 7s infinite;
+}
+
+.para {
+    text-align: justify;
+    
+}
+
+.heading-font {
+    font-size: 40px;
+}
+
+/* gradient effec */
+.gradient-background {
+    background: linear-gradient(62deg,
+            #945eb8, #6c1c80, #500f64, #470ab8);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+
+
+#card {
+    transition: 0.3s;
+}
+
+#card:hover {
+    background-color: rgb(67, 35, 97);
+    color: aliceblue;
+}
+
+#headserv {
+    font-size: 50px;
+}
+
+#heading-text {
+    color: purple;
+}
+
+#button-contact {
+    /* width: 25%; */
+    border: 1px solid;
+    border-radius: 2px;
+    transition: 0.6s;
+}
+
+
+#button-contact:hover {
+    border-radius: 5px;
+    background-color: rgb(121, 86, 153, 0.2);
+    border-color: blueviolet;
+}
+
+#navgbar {
+    border-bottom: 1px solid white;
+    transition: 0.4s;
+}
+
+#navgbar:hover {
+
+    border-bottom: 1px solid rgb(201, 183, 195);
+}
+
+#content1 {
+    border-radius: 20px;
+}
+
+#banner1 {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+#banner1:hover {
+    letter-spacing: 5px;
+    /* background-color: rgb(178, 148, 205); */
+}
+
+li {
+    display: block;
+    float: left;
+}
+
+
+
+.hovericon {
+    cursor:pointer;
+    background-color: rgb(221 217 229 / 5%);
+    transition: box-shadow .3s;
+    /* background: #fff; */
+    float: left;
+}
+
+.hovericon:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.testbg{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 50px;
+    background-color: rgb(93 91 97 / 5%);
+}
+
+
+
+
+
+
+/* form design */
