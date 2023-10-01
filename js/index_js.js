@@ -19,11 +19,7 @@ btn.addEventListener("click", () => {
 
 const supabase = createClient(sbURL, sbKEY)
 
-const { data, error } = await supabase
-  .from('customer_info')
-  .select("*")
 
-console.log("print => ",data)
 
 submitBtn.addEventListener("click", (e) => {
     e.preventDefault()
